@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Big Suite]">
+  <listeners>
+    <listener class-name="com.packt.base.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="FirstTest(failed)">
+    <parameter name="password" value="SuperSecretPassword!"/>
+    <parameter name="username" value="tomsmith"/>
+    <classes>
+      <class name="com.packt.tests.FirstTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="firstTest" invocation-numbers="0"/>
+          <include name="negativeLogInTest" invocation-numbers="1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.packt.tests.FirstTest -->
+    </classes>
+  </test> <!-- FirstTest(failed) -->
+  <test thread-count="5" name="Troubleshooting(failed)">
+    <classes>
+      <class name="com.packt.tests.Troubleshooting">
+        <methods>
+          <include name="waitTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.packt.tests.Troubleshooting -->
+    </classes>
+  </test> <!-- Troubleshooting(failed) -->
+</suite> <!-- Failed suite [Big Suite] -->

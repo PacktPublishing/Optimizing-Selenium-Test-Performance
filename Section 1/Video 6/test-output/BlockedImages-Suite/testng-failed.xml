@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BlockedImages-Suite]">
+  <test thread-count="5" name="BlockedImages-Test(failed)">
+    <parameter name="browser" value="chromeprofile"/>
+    <classes>
+      <class name="com.packt.tests.BlockedImagesTest">
+        <methods>
+          <include name="blockedImagesTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.packt.tests.BlockedImagesTest -->
+    </classes>
+  </test> <!-- BlockedImages-Test(failed) -->
+</suite> <!-- Failed suite [BlockedImages-Suite] -->

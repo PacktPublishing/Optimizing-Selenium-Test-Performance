@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Cookies-Suite" duration-ms="17608" started-at="2018-04-09T16:06:37Z" finished-at="2018-04-09T16:06:55Z">
+    <groups>
+    </groups>
+    <test name="Cookies-Test" duration-ms="17608" started-at="2018-04-09T16:06:37Z" finished-at="2018-04-09T16:06:55Z">
+      <class name="com.packt.tests.Cookies">
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.packt.tests.Cookies@56cbfb61]" name="setUp" is-config="true" duration-ms="3355" started-at="2018-04-09T12:06:37Z" finished-at="2018-04-09T12:06:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7e6ef134]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addingCookiesTest()[pri:0, instance:com.packt.tests.Cookies@56cbfb61]" name="addingCookiesTest" duration-ms="13518" started-at="2018-04-09T12:06:41Z" finished-at="2018-04-09T12:06:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingCookiesTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.Cookies@56cbfb61]" name="tearDown" is-config="true" duration-ms="718" started-at="2018-04-09T12:06:54Z" finished-at="2018-04-09T12:06:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.Cookies -->
+    </test> <!-- Cookies-Test -->
+  </suite> <!-- Cookies-Suite -->
+</testng-results>

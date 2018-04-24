@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BlockedImages-Suite" duration-ms="24497" started-at="2018-04-11T15:17:07Z" finished-at="2018-04-11T15:17:31Z">
+    <groups>
+    </groups>
+    <test name="BlockedImages-Test" duration-ms="24497" started-at="2018-04-11T15:17:07Z" finished-at="2018-04-11T15:17:31Z">
+      <class name="com.packt.tests.BlockedImagesTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.packt.tests.BlockedImagesTest@d041cf]" name="setUp" is-config="true" duration-ms="3533" started-at="2018-04-11T11:17:07Z" finished-at="2018-04-11T11:17:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromeprofile]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@4ed5eb72]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="blockedImagesTest()[pri:0, instance:com.packt.tests.BlockedImagesTest@d041cf]" name="blockedImagesTest" duration-ms="20266" started-at="2018-04-11T11:17:11Z" finished-at="2018-04-11T11:17:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blockedImagesTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.BlockedImagesTest@d041cf]" name="tearDown" is-config="true" duration-ms="681" started-at="2018-04-11T11:17:31Z" finished-at="2018-04-11T11:17:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.BlockedImagesTest -->
+    </test> <!-- BlockedImages-Test -->
+  </suite> <!-- BlockedImages-Suite -->
+</testng-results>

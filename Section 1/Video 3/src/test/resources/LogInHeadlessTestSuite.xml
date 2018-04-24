@@ -1,0 +1,62 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="LogIn-Suite" verbose="1" parallel="tests" thread-count="5">
+	<parameter name="username" value="tomsmith"></parameter>
+	<parameter name="password" value="SuperSecretPassword!"></parameter>
+
+	<test name="LogInTest-Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.packt.tests.FirstTest" >
+				<methods>
+					<include name="positiveLogInTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="LogInTest-HeadlessFirefox">
+		<parameter name="browser" value="headlessfirefox"></parameter>
+		<classes>
+			<class name="com.packt.tests.FirstTest" >
+				<methods>
+					<include name="positiveLogInTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="LogInTest-HeadlessChrome">
+		<parameter name="browser" value="headlesschrome"></parameter>
+		<classes>
+			<class name="com.packt.tests.FirstTest" >
+				<methods>
+					<include name="positiveLogInTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="LogInTest-PhantomJS">
+		<parameter name="browser" value="phantomjs"></parameter>
+		<classes>
+			<class name="com.packt.tests.FirstTest" >
+				<methods>
+					<include name="positiveLogInTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="LogInTest-HtmlUnit">
+		<parameter name="browser" value="htmlunit"></parameter>
+		<classes>
+			<class name="com.packt.tests.FirstTest" >
+				<methods>
+					<include name="positiveLogInTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>

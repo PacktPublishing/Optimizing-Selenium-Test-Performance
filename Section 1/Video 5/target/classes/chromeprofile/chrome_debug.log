@@ -1,0 +1,153 @@
+[22812:24556:0411/111709.037:ERROR:in_progress_cache_impl.cc(93)] Could not read download entries from file because there was a read failure.
+[22812:22020:0411/111709.608:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+[22812:22020:0411/111709.742:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+[22812:22020:0411/111709.799:ERROR:upload_data_presenter.cc(73)] NOT IMPLEMENTED
+[22812:24060:0411/111713.526:INFO:CONSOLE(7)] "SW registered", source: https://www.google.com/_/chrome/newtab?ie=UTF-8 (7)
+[22812:24060:0411/111716.312:INFO:CONSOLE(1)] "Can't Load URL: The domain of this URL isn't included in the app's domains. To be able to load this URL, add all domains and subdomains of your app to the App Domains field in your app settings.", source: https://www.facebook.com/connect/ping?client_id=334341610034299&domain=automationpractice.com&origin=1&redirect_uri=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FFdM1l_dpErI.js%3Fversion%3D42%23cb%3Df265eede2a2fb1c%26domain%3Dautomationpractice.com%26origin%3Dhttp%253A%252F%252Fautomationpractice.com%252Ff27fded91484d28%26relation%3Dparent&response_type=token%2Csigned_request%2Ccode&sdk=joey (1)
+[22812:24060:0411/111716.337:INFO:CONSOLE(0)] "Error in event handler for (unknown): Error: Invocation of form tabs.sendMessage(undefined, object) doesn't match definition tabs.sendMessage(integer tabId, any message, optional object options, optional function responseCallback)
+    at t.onDisconnect.addListener (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:5765)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.339:INFO:CONSOLE(0)] "Error in event handler for (unknown): Error: Invocation of form tabs.sendMessage(undefined, object) doesn't match definition tabs.sendMessage(integer tabId, any message, optional object options, optional function responseCallback)
+    at t.onDisconnect.addListener (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:5765)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.340:INFO:CONSOLE(0)] "Error in event handler for (unknown): Error: Invocation of form tabs.sendMessage(undefined, object) doesn't match definition tabs.sendMessage(integer tabId, any message, optional object options, optional function responseCallback)
+    at t.onDisconnect.addListener (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:5765)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.344:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-all
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3420)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.346:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-all
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3420)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.349:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-all
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3420)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.352:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-all
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3420)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.357:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-all
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3420)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.361:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-selector-css
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3679)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.362:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-selector-link-text
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3679)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.362:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-selector-xpath
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3679)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.363:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-selector-rxpath
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3679)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.363:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-selector-css
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3679)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.364:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-selector-link-text
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3679)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.365:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-selector-xpath
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3679)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.365:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-selector-rxpath
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3679)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.366:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-selector-css
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3679)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.367:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-selector-link-text
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3679)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.367:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-selector-xpath
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3679)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.368:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-selector-rxpath
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3679)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.368:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-selector-css
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3679)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.369:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-selector-link-text
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3679)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.369:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-selector-xpath
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3679)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.370:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-selector-rxpath
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3679)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.371:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-all
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3420)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.374:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-selector-css
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3679)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.374:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-selector-link-text
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3679)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.375:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-selector-xpath
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3679)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.375:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-selector-rxpath
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3679)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.376:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-selector-css
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3679)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.377:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-selector-link-text
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3679)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.377:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-selector-xpath
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3679)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.378:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-selector-rxpath
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3679)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.378:INFO:CONSOLE(102)] "Uncaught (in promise) Error: Attempting to use a disconnected port object", source: extensions::messaging (102)
+[22812:24060:0411/111716.378:INFO:CONSOLE(102)] "Uncaught (in promise) Error: Attempting to use a disconnected port object", source: extensions::messaging (102)
+[22812:24060:0411/111716.378:INFO:CONSOLE(102)] "Uncaught (in promise) Error: Attempting to use a disconnected port object", source: extensions::messaging (102)
+[22812:24060:0411/111716.379:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-selector-css
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3679)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.379:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-selector-link-text
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3679)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.380:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-selector-xpath
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3679)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.381:INFO:CONSOLE(0)] "Unchecked runtime.lastError while running contextMenus.create: Cannot create item with duplicate id rxse-selector-rxpath
+    at Promise (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:334)
+    at t (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:310)
+    at r.<anonymous> (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:3679)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)
+[22812:24060:0411/111716.446:INFO:CONSOLE(0)] "Error in event handler for (unknown): Error: Invocation of form tabs.sendMessage(undefined, object) doesn't match definition tabs.sendMessage(integer tabId, any message, optional object options, optional function responseCallback)
+    at t.onDisconnect.addListener (chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/scripts/background-bundle.js:1:5765)", source: chrome-extension://ocgghcnnjekfpbmafindjmijdpopafoe/_generated_background_page.html (0)

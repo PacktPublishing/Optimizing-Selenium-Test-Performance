@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Cookies-Suite]">
+  <test name="Cookies-Test(failed)">
+    <classes>
+      <class name="com.packt.tests.Cookies">
+        <methods>
+          <include name="tearDown"/>
+          <include name="addingCookiesTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.packt.tests.Cookies -->
+    </classes>
+  </test> <!-- Cookies-Test(failed) -->
+</suite> <!-- Failed suite [Cookies-Suite] -->

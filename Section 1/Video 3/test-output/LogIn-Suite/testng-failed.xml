@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LogIn-Suite]" parallel="tests">
+  <parameter name="password" value="SuperSecretPassword!"/>
+  <parameter name="browser" value="htmlunit"/>
+  <parameter name="username" value="tomsmith"/>
+  <test name="LogInTest-HtmlUnit(failed)" parallel="tests">
+    <parameter name="browser" value="htmlunit"/>
+    <classes>
+      <class name="com.packt.tests.FirstTest">
+        <methods>
+          <include name="positiveLogInTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.packt.tests.FirstTest -->
+    </classes>
+  </test> <!-- LogInTest-HtmlUnit(failed) -->
+</suite> <!-- Failed suite [LogIn-Suite] -->

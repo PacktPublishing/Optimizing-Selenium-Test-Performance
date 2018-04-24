@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LogIn-Suite" duration-ms="21561" started-at="2018-04-08T14:25:00Z" finished-at="2018-04-08T14:25:22Z">
+    <groups>
+    </groups>
+    <test name="LogInTest-HtmlUnit" duration-ms="4245" started-at="2018-04-08T14:25:00Z" finished-at="2018-04-08T14:25:04Z">
+      <class name="com.packt.tests.FirstTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.packt.tests.FirstTest@3d8c7aca]" name="setUp" is-config="true" duration-ms="2223" started-at="2018-04-08T10:25:00Z" finished-at="2018-04-08T10:25:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[htmlunit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@3551a94]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="positiveLogInTest(java.lang.String, java.lang.String)[pri:0, instance:com.packt.tests.FirstTest@3d8c7aca]" name="positiveLogInTest" duration-ms="1999" started-at="2018-04-08T10:25:02Z" finished-at="2018-04-08T10:25:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLogInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.FirstTest@3d8c7aca]" name="tearDown" is-config="true" duration-ms="2" started-at="2018-04-08T10:25:04Z" finished-at="2018-04-08T10:25:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.FirstTest -->
+    </test> <!-- LogInTest-HtmlUnit -->
+    <test name="LogInTest-PhantomJS" duration-ms="14626" started-at="2018-04-08T14:25:00Z" finished-at="2018-04-08T14:25:15Z">
+      <class name="com.packt.tests.FirstTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.packt.tests.FirstTest@6bf256fa]" name="setUp" is-config="true" duration-ms="12329" started-at="2018-04-08T10:25:00Z" finished-at="2018-04-08T10:25:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[phantomjs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@735b478]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="positiveLogInTest(java.lang.String, java.lang.String)[pri:0, instance:com.packt.tests.FirstTest@6bf256fa]" name="positiveLogInTest" duration-ms="1753" started-at="2018-04-08T10:25:12Z" finished-at="2018-04-08T10:25:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLogInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.FirstTest@6bf256fa]" name="tearDown" is-config="true" duration-ms="523" started-at="2018-04-08T10:25:14Z" finished-at="2018-04-08T10:25:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.FirstTest -->
+    </test> <!-- LogInTest-PhantomJS -->
+    <test name="LogInTest-HeadlessChrome" duration-ms="17116" started-at="2018-04-08T14:25:00Z" finished-at="2018-04-08T14:25:17Z">
+      <class name="com.packt.tests.FirstTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.packt.tests.FirstTest@35f983a6]" name="setUp" is-config="true" duration-ms="12854" started-at="2018-04-08T10:25:00Z" finished-at="2018-04-08T10:25:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[headlesschrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2c9f9fb0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="positiveLogInTest(java.lang.String, java.lang.String)[pri:0, instance:com.packt.tests.FirstTest@35f983a6]" name="positiveLogInTest" duration-ms="3688" started-at="2018-04-08T10:25:13Z" finished-at="2018-04-08T10:25:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLogInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.FirstTest@35f983a6]" name="tearDown" is-config="true" duration-ms="554" started-at="2018-04-08T10:25:17Z" finished-at="2018-04-08T10:25:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.FirstTest -->
+    </test> <!-- LogInTest-HeadlessChrome -->
+    <test name="LogInTest-Chrome" duration-ms="17957" started-at="2018-04-08T14:25:00Z" finished-at="2018-04-08T14:25:18Z">
+      <class name="com.packt.tests.FirstTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.packt.tests.FirstTest@6bdf28bb]" name="setUp" is-config="true" duration-ms="12989" started-at="2018-04-08T10:25:00Z" finished-at="2018-04-08T10:25:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2096442d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="positiveLogInTest(java.lang.String, java.lang.String)[pri:0, instance:com.packt.tests.FirstTest@6bdf28bb]" name="positiveLogInTest" duration-ms="4253" started-at="2018-04-08T10:25:13Z" finished-at="2018-04-08T10:25:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLogInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.FirstTest@6bdf28bb]" name="tearDown" is-config="true" duration-ms="696" started-at="2018-04-08T10:25:17Z" finished-at="2018-04-08T10:25:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.FirstTest -->
+    </test> <!-- LogInTest-Chrome -->
+    <test name="LogInTest-HeadlessFirefox" duration-ms="21561" started-at="2018-04-08T14:25:00Z" finished-at="2018-04-08T14:25:22Z">
+      <class name="com.packt.tests.FirstTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext)[pri:0, instance:com.packt.tests.FirstTest@2812cbfa]" name="setUp" is-config="true" duration-ms="17943" started-at="2018-04-08T10:25:00Z" finished-at="2018-04-08T10:25:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[headlessfirefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@9f70c54]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="positiveLogInTest(java.lang.String, java.lang.String)[pri:0, instance:com.packt.tests.FirstTest@2812cbfa]" name="positiveLogInTest" duration-ms="2213" started-at="2018-04-08T10:25:18Z" finished-at="2018-04-08T10:25:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLogInTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.FirstTest@2812cbfa]" name="tearDown" is-config="true" duration-ms="1385" started-at="2018-04-08T10:25:20Z" finished-at="2018-04-08T10:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.FirstTest -->
+    </test> <!-- LogInTest-HeadlessFirefox -->
+  </suite> <!-- LogIn-Suite -->
+</testng-results>
