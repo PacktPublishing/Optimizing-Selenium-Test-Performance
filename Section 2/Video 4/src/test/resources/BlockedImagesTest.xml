@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="BlockedImages-Suite" verbose="1">
+
+	<test name="BlockedImages-Test">
+		<parameter name="browser" value="chromeprofile"></parameter>
+		<classes>
+			<class name="com.packt.tests.BlockedImagesTest">
+			</class>
+		</classes>
+	</test>
+</suite>

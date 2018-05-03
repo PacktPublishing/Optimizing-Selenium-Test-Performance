@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [LogIn-SauceSuite]" parallel="tests">
+  <parameter name="password" value="SuperSecretPassword!"/>
+  <parameter name="environment" value="SauceLabs"/>
+  <parameter name="username" value="tomsmith"/>
+  <test thread-count="3" name="LogInTest-Firefox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.packt.tests.FirstTest">
+        <methods>
+          <include name="positiveLoginTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.packt.tests.FirstTest -->
+    </classes>
+  </test> <!-- LogInTest-Firefox(failed) -->
+</suite> <!-- Failed suite [LogIn-SauceSuite] -->

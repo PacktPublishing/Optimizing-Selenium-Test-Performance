@@ -1,0 +1,43 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="LogIn-SauceSuite" verbose="1" parallel="tests" thread-count="3">
+	<parameter name="username" value="tomsmith"></parameter>
+	<parameter name="password" value="SuperSecretPassword!"></parameter>
+	<parameter name="environment" value="SauceLabs"></parameter>
+
+	<test name="LogInTest-Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="platform" value="Windows 7"></parameter>
+		<classes>
+			<class name="com.packt.tests.FirstTest" >
+				<methods>
+					<include name="positiveLoginTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="LogInTest-Firefox">
+		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="platform" value="macOS 10.13"></parameter>
+		<classes>
+			<class name="com.packt.tests.FirstTest" >
+				<methods>
+					<include name="positiveLoginTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="LogInTest-IE">
+		<parameter name="browser" value="Internet Explorer"></parameter>
+		<classes>
+			<class name="com.packt.tests.FirstTest" >
+				<methods>
+					<include name="positiveLoginTest"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>

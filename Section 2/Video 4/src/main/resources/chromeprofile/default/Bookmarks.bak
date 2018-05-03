@@ -1,0 +1,150 @@
+{
+   "checksum": "33893aeb6d07317e52e5f4df4932e1ac",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13161900472555931",
+            "id": "5",
+            "name": "Selenium",
+            "sync_transaction_version": "125",
+            "type": "url",
+            "url": "http://www.seleniumhq.org/"
+         }, {
+            "children": [ {
+               "date_added": "13161900727192535",
+               "id": "6",
+               "name": "Bootcamp",
+               "sync_transaction_version": "120",
+               "type": "url",
+               "url": "http://info.saucelabs.com/rs/saucelabsinc/images/Bootcamp-Selenium.pdf"
+            }, {
+               "date_added": "13161902381585326",
+               "id": "8",
+               "name": "Selenium Framework | What is Selenium",
+               "sync_transaction_version": "124",
+               "type": "url",
+               "url": "http://www.seleniumframework.com/introduction/what-is-selenium/"
+            }, {
+               "date_added": "13161902438585395",
+               "id": "9",
+               "name": "Selenium Framework | Demo Sites",
+               "sync_transaction_version": "123",
+               "type": "url",
+               "url": "http://www.seleniumframework.com/demo-sites/"
+            }, {
+               "date_added": "13161905022724581",
+               "id": "20",
+               "name": "OBS Studio Tutorial: Best Recording Settings | OBS Multiplatform Guide - YouTube",
+               "sync_transaction_version": "133",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?time_continue=284&v=YKzcPWFxNZw"
+            }, {
+               "date_added": "13162078576058329",
+               "id": "22",
+               "name": "How To Make Selenium WebDriver Scripts Faster | SELENIUM Automation in JAVA",
+               "sync_transaction_version": "132",
+               "type": "url",
+               "url": "https://seleniumjava.com/2015/12/12/how-to-make-selenium-webdriver-scripts-faster/"
+            } ],
+            "date_added": "13161902246833770",
+            "date_modified": "13162078576058329",
+            "id": "7",
+            "name": "Info",
+            "sync_transaction_version": "3",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13161902749736503",
+               "id": "14",
+               "name": "Best Test Automation Websites to Practice Using Selenium Webdriver",
+               "sync_transaction_version": "130",
+               "type": "url",
+               "url": "https://www.ultimateqa.com/best-test-automation-websites-to-practice-using-selenium-webdriver/"
+            }, {
+               "date_added": "13161903166205021",
+               "id": "18",
+               "name": "7 Websites to Practice Selenium Webdriver Online",
+               "sync_transaction_version": "126",
+               "type": "url",
+               "url": "http://www.techbeamers.com/websites-to-practice-selenium-webdriver-online/"
+            }, {
+               "date_added": "13161902493211760",
+               "id": "11",
+               "name": "Passion Tea Company",
+               "sync_transaction_version": "122",
+               "type": "url",
+               "url": "http://www.practiceselenium.com/welcome.html"
+            }, {
+               "date_added": "13161902528457760",
+               "id": "12",
+               "meta_info": {
+                  "last_visited_desktop": "13168275585577800"
+               },
+               "name": "My Store",
+               "sync_transaction_version": "137",
+               "type": "url",
+               "url": "http://automationpractice.com/index.php"
+            }, {
+               "date_added": "13161902600598452",
+               "id": "13",
+               "name": "Automation Practice - Ultimate QA",
+               "sync_transaction_version": "129",
+               "type": "url",
+               "url": "https://www.ultimateqa.com/automation/"
+            }, {
+               "date_added": "13161902810658522",
+               "id": "15",
+               "name": "Demoqa | Just another WordPress site",
+               "sync_transaction_version": "119",
+               "type": "url",
+               "url": "http://demoqa.com/"
+            }, {
+               "date_added": "13161902855978794",
+               "id": "16",
+               "name": "Automation Testing Practice Page QTP tutorial",
+               "sync_transaction_version": "128",
+               "type": "url",
+               "url": "https://www.qtptutorial.net/automation-practice/"
+            }, {
+               "date_added": "13161903102513796",
+               "id": "17",
+               "name": "The Internet | Dave Haeffner",
+               "sync_transaction_version": "121",
+               "type": "url",
+               "url": "http://the-internet.herokuapp.com/"
+            } ],
+            "date_added": "13161902490418760",
+            "date_modified": "13161905022724581",
+            "id": "10",
+            "name": "Practice",
+            "sync_transaction_version": "3",
+            "type": "folder"
+         } ],
+         "date_added": "13161900450171931",
+         "date_modified": "13161902493211760",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "sync_transaction_version": "3",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13161900450171931",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "sync_transaction_version": "3",
+         "type": "folder"
+      },
+      "sync_transaction_version": "137",
+      "synced": {
+         "children": [  ],
+         "date_added": "13161900450171931",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="6" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LogIn-SauceSuite" duration-ms="29216" started-at="2018-04-28T13:50:34Z" finished-at="2018-04-28T13:51:03Z">
+    <groups>
+    </groups>
+    <test name="LogInTest-Chrome" duration-ms="10533" started-at="2018-04-28T13:50:34Z" finished-at="2018-04-28T13:50:44Z">
+      <class name="com.packt.tests.FirstTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.packt.tests.FirstTest@e720b71]" name="setUp" is-config="true" duration-ms="4894" started-at="2018-04-28T13:50:34Z" finished-at="2018-04-28T13:50:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows 7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SauceLabs]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@1068e947]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="positiveLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.packt.tests.FirstTest@e720b71]" name="positiveLoginTest" duration-ms="5410" started-at="2018-04-28T13:50:39Z" finished-at="2018-04-28T13:50:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.FirstTest@e720b71]" name="tearDown" is-config="true" duration-ms="191" started-at="2018-04-28T13:50:44Z" finished-at="2018-04-28T13:50:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.FirstTest -->
+    </test> <!-- LogInTest-Chrome -->
+    <test name="LogInTest-IE" duration-ms="24329" started-at="2018-04-28T13:50:34Z" finished-at="2018-04-28T13:50:58Z">
+      <class name="com.packt.tests.FirstTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.packt.tests.FirstTest@a74868d]" name="setUp" is-config="true" duration-ms="17982" started-at="2018-04-28T13:50:34Z" finished-at="2018-04-28T13:50:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Internet Explorer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SauceLabs]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@2f8f5f62]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="positiveLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.packt.tests.FirstTest@a74868d]" name="positiveLoginTest" duration-ms="6089" started-at="2018-04-28T13:50:52Z" finished-at="2018-04-28T13:50:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.FirstTest@a74868d]" name="tearDown" is-config="true" duration-ms="223" started-at="2018-04-28T13:50:58Z" finished-at="2018-04-28T13:50:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.FirstTest -->
+    </test> <!-- LogInTest-IE -->
+    <test name="LogInTest-Firefox" duration-ms="29216" started-at="2018-04-28T13:50:34Z" finished-at="2018-04-28T13:51:03Z">
+      <class name="com.packt.tests.FirstTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:com.packt.tests.FirstTest@289d1c02]" name="setUp" is-config="true" duration-ms="24347" started-at="2018-04-28T13:50:34Z" finished-at="2018-04-28T13:50:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[macOS 10.13]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SauceLabs]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@7dc222ae]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="positiveLoginTest(java.lang.String, java.lang.String)[pri:0, instance:com.packt.tests.FirstTest@289d1c02]" name="positiveLoginTest" duration-ms="4638" started-at="2018-04-28T13:50:58Z" finished-at="2018-04-28T13:51:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.packt.tests.FirstTest@289d1c02]" name="tearDown" is-config="true" duration-ms="196" started-at="2018-04-28T13:51:03Z" finished-at="2018-04-28T13:51:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.packt.tests.FirstTest -->
+    </test> <!-- LogInTest-Firefox -->
+  </suite> <!-- LogIn-SauceSuite -->
+</testng-results>
